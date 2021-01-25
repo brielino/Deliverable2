@@ -1,0 +1,11 @@
+language: java
+jdk:
+- openjdk11
+
+addons:
+ sonarcloud:
+  organization: brielino
+  token: 85bd1d38efd55f2da622d6f56b7812b8aa00d37e
+script:
+- ant build
+- sonar-scanner
