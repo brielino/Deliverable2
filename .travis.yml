@@ -5,7 +5,7 @@ jdk:
 addons:
  sonarcloud:
   organization: brielino
-  token: 85bd1d38efd55f2da622d6f56b7812b8aa00d37e
+  token: 67f1869b59f8cdf458f23fe1cfc495f733c8c188
 script:
 - ant build
 - sonar-scanner
