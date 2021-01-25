@@ -88,7 +88,6 @@ public class GetMetrics {
 
 	
 	public static Map<String, String> readFileName(String nameFile) {
-		System.out.println(nameFile);
 		/* Metodo per ottenere il numero di versione associato al rispettivo nome (Es. 0.2.0) */ 
 		 String csvFile = nameFile;
 	     String line = "";
